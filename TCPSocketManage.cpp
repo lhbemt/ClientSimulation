@@ -107,7 +107,7 @@ void CTCPSocketManage::UserLogin(ClientUserInfo* userInfo, const char* szUserNam
 
 	loginPlace.bForced = false;
 	loginPlace.iUserID = userInfo->nUserID;
-	loginPlace.gsqPs = 5471; // ¸ÉÂïµÄ
+	loginPlace.gsqPs = 5471;
 	strcpy(loginPlace.szName, szUserName);
 
 	MD5_CTX Md5;
